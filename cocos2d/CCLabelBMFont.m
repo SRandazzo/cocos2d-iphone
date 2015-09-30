@@ -141,7 +141,7 @@ void FNTConfigRemoveCache( void )
 	
 	HASH_ITER(hh, _fontDefDictionary, current, tmp) {
 		HASH_DEL(_fontDefDictionary, current);
-		free(current);
+		//free(current);
 	}
 }
 
@@ -152,7 +152,7 @@ void FNTConfigRemoveCache( void )
 	while(_kerningDictionary) {
 		current = _kerningDictionary;
 		HASH_DEL(_kerningDictionary,current);
-		free(current);
+		// free(current);
 	}
 }
 
@@ -811,7 +811,6 @@ void FNTConfigRemoveCache( void )
 		rect.origin.x += _imageOffset.x;
 		rect.origin.y += _imageOffset.y;
         
-		BOOL hasSprite = YES;
 		CCSprite *fontChar = [self childForTag:i];
 		if( fontChar )
 		{

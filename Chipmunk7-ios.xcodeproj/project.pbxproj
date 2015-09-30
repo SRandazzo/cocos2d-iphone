@@ -337,8 +337,8 @@
 				B759E50D1880C4A500E8166C /* chipmunk_private.h */,
 				B759E50E1880C4A500E8166C /* chipmunk_types.h */,
 				B759E50F1880C4A500E8166C /* chipmunk_unsafe.h */,
-				B759E50C1880C4A500E8166C /* chipmunk_ffi.h */,
 				B759E5111880C4C300E8166C /* chipmunk.c */,
+				B759E50C1880C4A500E8166C /* chipmunk_ffi.h */,
 				D3E5F2F30AAA575E004E361B /* Basics */,
 				B759E5011880C3D900E8166C /* cpBody.h */,
 				B759E50A1880C46900E8166C /* cpBody.c */,
@@ -446,7 +446,7 @@
 		D3E5F0190AA32EAC004E361B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0630;
 				TargetAttributes = {
 					7A5948D719E3795700F65F90 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -780,6 +780,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -819,6 +820,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
